@@ -12,7 +12,7 @@
  */
 
 .col-oranred {
-  background: linear-gradient( rgba(255, 166, 0, 0.877),red);
+  background-image: linear-gradient( rgba(255, 166, 0, 0.877),red);
 }
 
 .bg-tienda {
