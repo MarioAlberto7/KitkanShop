@@ -52,6 +52,10 @@
   background-image: linear-gradient(#495057, #D6D6C6);
 }
 
+.gr-hor {
+  background-image: linear-gradient(to left, #495057, #D6D6C6);
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
