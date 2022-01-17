@@ -28,6 +28,10 @@
   border: 1px solid #141619;
 }
 
+.bor-das{
+  border: 1px dashed #141619;
+}
+
 .i-logo {
   padding-left: 10px;
   border-right: 2px dashed #141619;
