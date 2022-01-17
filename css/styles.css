@@ -53,7 +53,7 @@
 }
 
 .gr-hor {
-  background-image: linear-gradient(to left, #495057, #D6D6C6);
+  background-image: linear-gradient(to left, #D6D6C6, #495057);
 }
 
 :root {
