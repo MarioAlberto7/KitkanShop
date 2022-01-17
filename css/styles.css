@@ -24,7 +24,7 @@
 }
 
 .col-orange-faint {
-  background: #f7bd56;
+  background-image: linear-gradient(#f7bd56, #fff);
   border: 1px solid #141619;
 }
 
