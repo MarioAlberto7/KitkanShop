@@ -27,6 +27,9 @@
 .col-orange-faint {
   background-image: linear-gradient(#f7bd56, #fff);
   border: 1px solid #141619;
+}
+
+.col-orange-faint .nav-link {
   color: var(--bs-red);
 }
 
