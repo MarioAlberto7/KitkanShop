@@ -15,6 +15,10 @@
   background-image: linear-gradient( orange,red);
 }
 
+.col-redoran {
+  background-image: linear-gradient(red, orange);
+}
+
 .bg-tienda {
   background: url('../img/Fondo_in.jpg');  
 }
