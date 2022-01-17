@@ -29,8 +29,8 @@
   border: 1px solid #141619;
 }
 
-.col-orange-faint .nav-link {
-  color: var(--bs-red);
+.text-rosa {
+  color: rgba(241, 150, 170, 0.753);
 }
 
 .bor-das{
