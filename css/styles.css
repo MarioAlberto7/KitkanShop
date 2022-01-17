@@ -49,7 +49,7 @@
 .br-da {
   border: 2px dashed #141619;
   margin-bottom: 8px;
-  background: #495057;
+  background-image: linear-gradient(#495057, rgba(255, 255, 255, 0.945));
 }
 
 :root {
