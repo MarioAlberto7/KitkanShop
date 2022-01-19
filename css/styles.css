@@ -10,7 +10,13 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .color-tex {
+  color: white;
+}
 
+i.color-tex:hover {
+  color: black;
+}
 .col-oranred {
   background-image: linear-gradient( orange,red);
 }
