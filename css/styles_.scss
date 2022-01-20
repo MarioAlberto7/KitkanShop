@@ -1,0 +1,33 @@
+/*Estilos en SCSS*/
+@import 'vars';
+
+body {    
+    background-image: linear-gradient(to right, blue, white);
+    section {
+        font-size: $letTex;
+        font-family: 'Architects Daughter', cursive;
+        input {
+            font-size: $letMin;
+            border-bottom: 2px solid olive;
+            font-family: 'Architects Daughter', cursive;
+        }
+        textarea {
+            border-bottom: 2px solid gold;
+        }
+    }
+    h3 {
+        font-family: 'Architects Daughter', cursive;
+        border-bottom: 1px solid white;       
+    }
+    div h3 {
+        font-family: 'Architects Daughter', cursive;
+        
+    }
+    div p.tip {
+        font-family: 'Architects Daughter', cursive;
+        font-size: $letMax;
+    }
+    div a {
+        font-size: $letMin;
+    }
+}
