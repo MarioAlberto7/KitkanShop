@@ -1,0 +1,40 @@
+/*Estilos en SCSS*/
+/*Variables*/
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(blue), to(white));
+  background-image: linear-gradient(to right, blue, white);
+}
+
+body section {
+  font-size: 16px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+body section input {
+  font-size: 14px;
+  border-bottom: 2px solid olive;
+  font-family: 'Architects Daughter', cursive;
+}
+
+body section textarea {
+  border-bottom: 2px solid gold;
+}
+
+body h3 {
+  font-family: 'Architects Daughter', cursive;
+  border-bottom: 1px solid white;
+}
+
+body div h3 {
+  font-family: 'Architects Daughter', cursive;
+}
+
+body div p.tip {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 19px;
+}
+
+body div a {
+  font-size: 14px;
+}
+/*# sourceMappingURL=styles_.css.map */
