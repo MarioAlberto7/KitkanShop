@@ -1,18 +1,52 @@
 /*Estilos en SCSS*/
 @import 'vars';
+/*Mixin*/
+@mixin letra {
+    font-family: 'Architects Daughter', cursive;
+}
 
+@mixin borde2 {
+    border-radius: 2px;
+}
+
+@mixin borde4 {
+    border-radius: 4px;
+}
+
+@mixin borde8 {
+    border-radius: 8px;
+}
+
+@mixin borde12 {
+    border-radius: 12px;
+}
+
+@mixin borde50 {
+    border-radius: 50%;
+}
+
+/*Include*/
 body {    
-    background-image: linear-gradient(to right, blue, white);
+    background-image: linear-gradient(to right, deeppink, white);
     section {
         font-size: $letTex;
-        font-family: 'Architects Daughter', cursive;
-        input {
+        @include letra;
+        input.caja {
             font-size: $letMin;
             border-bottom: 2px solid olive;
             font-family: 'Architects Daughter', cursive;
         }
         textarea {
             border-bottom: 2px solid gold;
+            background-color: whitesmoke;
+        }
+        div.br-es {
+            display: block;
+            padding: 5px;
+            #bt {
+                @include borde50;
+                color: green;
+            }            
         }
     }
     h3 {
@@ -29,5 +63,26 @@ body {
     }
     div a {
         font-size: $letMin;
+    }
+    /*Extend*/
+    .br-da {
+        border: 2px solid #141619;
+        margin-bottom: 8px;
+    }
+    .br-da--bg {
+        @extend .br-da;
+        background-image: linear-gradient(#495057, #D6D6C6);
+    }
+    /*Maps*/
+    $red: (
+        fb: #3b5998,
+        tw: #00bb2d
+    );
+    @each $nom, $val in $red {
+        .ico-#{$nom} {
+            background-color: $val;
+            padding: 3px;
+            border-radius: 50%;
+        }
     }
 }

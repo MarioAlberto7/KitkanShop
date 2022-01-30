@@ -20,10 +20,10 @@
     <body>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light col-oranred">
-            <a href="./index.html" class="i-logo" target="_blank">
-                <img src="./img/logo.jpg" alt="logo" class="navbar-brand bor-das" width="80" height="50">
-            </a>
-            <div class="container px-4 px-lg-5">
+            <div class="container px-0 px-lg-0">
+                <a href="./index.html" class="" target="_blank">
+                    <img src="./img/logo.jpg" alt="logo" class="navbar-brand bor-das" width="80" height="50">
+                </a>
                 <a class="navbar-brand text-white" href="./index.html">Kitkan Shop</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -44,7 +44,7 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-light text-white" type="submit">
+                        <button class="btn btn-outline-secondary text-white" type="submit">
                             <i class="bi-cart-fill me-1 color-tex">Carro</i>
                             
                             <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
@@ -66,33 +66,40 @@
         <!-- Section-->
         <section class="py-5 col-oranred posit-ar">
             <h4>Escríbenos tu comentario para seguir mejorando:</h4>
-        <p><em>Recuerda tambien escribirnos en nuestras redes sociales</em></p>
+            <p><em>Recuerda tambien escribirnos en nuestras redes sociales</em></p>
 
-        <label form="name">Apellidos y nombre(s):* </label>
-        <input type="text" id="name" required>
-        <br><br>
+            <div class="br-es">
+                <label form="name">Apellidos y nombre(s): </label>
+                <input type="text" class="caja" id="name" required>
+            </div>
+            
+            <div class="br-es">
+                <label form="email">Email: </label>
+                <input type="email" class="caja" id="email">
+            </div>
 
-        <label form="email">Email: </label>
-        <input type="email" id="email">
-        <br><br>
-        <label form="comentario">Deja tus comentarios</label><br>
-        <textarea name="comentario" id="comentario" cols="90" rows="10" class="form-label"></textarea>
-        <br><br>
-        <input type="button" value="Guardar">
-        <input type="button" value="Limpiar">
-        <br><br>
+            <div class="br-es">
+                <label form="comentario">Deja tus comentarios: </label><br>
+                <textarea name="comentario" id="comentario" cols="70" rows="10" class="form-label"></textarea>
+            </div>
+
+            <div class="br-es">
+                <button id="bt">Guardar</button>
+                <button id="bt">Limpiar</button>
+            </div>
+
         </section>
 
         
         <h3 class="text-white gr-hor">Contactanos en:</h3>
-        <div class="container br-da text-white">
+        <div class="container br-da--bg text-white">
             <h3>Nuestras redes sociales</h3>
             <p class="tip">Consultados en nuestras redes sociales sobre nuestros productos</p>
             <a href="www.facebook.com" class="text-primary">
-                <img src="./img/facebook.png" class="br-da" alt="face" width="40" height="40">Facebook
+                <img src="./img/facebook.png" class="br-da ico-fb" alt="face" width="40" height="40">Facebook
             </a>
             <a href="https://web.whatsapp.com" class="text-primary">
-                <img src="./img/whatsapp.png" class="br-da" alt="" width="40" height="40">WhatsApp
+                <img src="./img/whatsapp.png" class="br-da ico-tw" alt="" width="40" height="40">WhatsApp
             </a>
         </div>
 

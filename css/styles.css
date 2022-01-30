@@ -18,11 +18,11 @@ i.color-tex:hover {
   color: black;
 }
 .col-oranred {
-  background-image: linear-gradient( orange,red);
+  background-image: linear-gradient( purple,pink);
 }
 
 .col-redoran {
-  background-image: linear-gradient(red, orange);
+  background-image: linear-gradient(pink, purple);
 }
 
 .bg-tienda {
@@ -36,11 +36,14 @@ i.color-tex:hover {
 }
 
 .text-rosa {
-  color: rgba(241, 150, 170, 0.753);
+  color: #ff0080;
 }
 
 .bor-das{
-  border: 1px dashed #141619;
+  display: inline;
+  padding-left: 17px;
+  width: 85px;
+  height: 65px;
 }
 
 .i-logo {
@@ -52,11 +55,12 @@ i.color-tex:hover {
   padding-left: 10px;
 }
 
-.br-da {
+/*.br-da {
   border: 2px dashed #141619;
   margin-bottom: 8px;
   background-image: linear-gradient(#495057, #D6D6C6);
 }
+*/
 
 .gr-hor {
   background-image: linear-gradient(to left, #D6D6C6, #495057);

@@ -1,8 +1,12 @@
 /*Estilos en SCSS*/
 /*Variables*/
+/*Mixin*/
+/*Include*/
 body {
-  background-image: -webkit-gradient(linear, left top, right top, from(blue), to(white));
-  background-image: linear-gradient(to right, blue, white);
+  background-image: -webkit-gradient(linear, left top, right top, from(deeppink), to(white));
+  background-image: linear-gradient(to right, deeppink, white);
+  /*Extend*/
+  /*Maps*/
 }
 
 body section {
@@ -10,7 +14,7 @@ body section {
   font-family: 'Architects Daughter', cursive;
 }
 
-body section input {
+body section input.caja {
   font-size: 14px;
   border-bottom: 2px solid olive;
   font-family: 'Architects Daughter', cursive;
@@ -18,6 +22,17 @@ body section input {
 
 body section textarea {
   border-bottom: 2px solid gold;
+  background-color: whitesmoke;
+}
+
+body section div.br-es {
+  display: block;
+  padding: 5px;
+}
+
+body section div.br-es #bt {
+  border-radius: 50%;
+  color: green;
 }
 
 body h3 {
@@ -36,5 +51,27 @@ body div p.tip {
 
 body div a {
   font-size: 14px;
+}
+
+body .br-da, body .br-da--bg {
+  border: 2px solid #141619;
+  margin-bottom: 8px;
+}
+
+body .br-da--bg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#495057), to(#D6D6C6));
+  background-image: linear-gradient(#495057, #D6D6C6);
+}
+
+body .ico-fb {
+  background-color: #3b5998;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+body .ico-tw {
+  background-color: #00bb2d;
+  padding: 3px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=styles_.css.map */
