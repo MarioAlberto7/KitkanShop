@@ -23,8 +23,8 @@ i.color-tex:hover {
 
 .col-redoran {
   /*background-image: linear-gradient(pink, purple);*/
-  background: url('../img/fondotienda.jpg');
-  background-attachment: fixed;
+  background: url('../img/fondom.jpg');
+  background-attachment: scroll;
 }
 
 .bg-tienda {
