@@ -18,13 +18,13 @@ i.color-tex:hover {
   color: black;
 }
 .col-oranred {
-  background-image: linear-gradient( purple,pink);
+  background-image: linear-gradient( gold,pink);
 }
 
 .col-redoran {
-  /*background-image: linear-gradient(pink, purple);*/
-  background: url('../img/fondom.jpg');
-  background-attachment: scroll;
+  background-image: linear-gradient(pink, gold);
+  /*background: url('../img/fondom.jpg');
+  background-attachment: scroll;*/
 }
 
 .bg-tienda {
