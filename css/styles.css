@@ -18,11 +18,11 @@ i.color-tex:hover {
   color: black;
 }
 .col-oranred {
-  background-image: linear-gradient( gold,pink);
+  background-image: linear-gradient( gold,dimgrey);
 }
 
 .col-redoran {
-  background-image: linear-gradient(pink, gold);
+  background-image: linear-gradient(dimgrey, gold);
   /*background: url('../img/fondom.jpg');
   background-attachment: scroll;*/
 }
