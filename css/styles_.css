@@ -3,8 +3,8 @@
 /*Mixin*/
 /*Include*/
 body {
-  background-image: -webkit-gradient(linear, left top, right top, from(deeppink), to(white));
-  background-image: linear-gradient(to right, deeppink, white);
+  background-image: -webkit-gradient(linear, left top, right top, from(gold), to(white));
+  background-image: linear-gradient(to right, gold, white);
   /*Extend*/
   /*Maps*/
 }
