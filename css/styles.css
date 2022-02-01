@@ -31,6 +31,8 @@ i.color-tex:hover {
   background: url('../img/fondotienda.jpg');
   background-attachment: fixed;
   background-repeat: round;
+  background-size: contain;
+  height: 100%;
   width: 100%;
 }
 
