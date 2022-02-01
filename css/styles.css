@@ -31,6 +31,7 @@ i.color-tex:hover {
   background: url('../img/fondotienda.jpg');
   background-attachment: scroll;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .col-orange-faint {
