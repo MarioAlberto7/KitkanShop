@@ -29,7 +29,7 @@ i.color-tex:hover {
 
 .bg-tienda {
   background: url('../img/fondotienda.jpgh');
-  background-attachment: fixed; 
+  background-attachment: scroll; 
 }
 
 .col-orange-faint {
