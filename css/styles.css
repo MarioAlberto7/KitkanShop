@@ -30,7 +30,7 @@ i.color-tex:hover {
 .bg-tienda {
   background: url('../img/fondotienda.jpg');
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: round;
   width: 100%;
 }
 
