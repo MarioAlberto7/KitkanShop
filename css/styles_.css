@@ -3,8 +3,8 @@
 /*Mixin*/
 /*Include*/
 body {
-  background-image: -webkit-gradient(linear, left top, right top, from(gold), to(white));
-  background-image: linear-gradient(to right, gold, white);
+  background-image: -webkit-gradient(linear, left top, right top, from(indianred), to(white));
+  background-image: linear-gradient(to right, indianred, white);
   /*Extend*/
   /*Maps*/
 }
@@ -33,6 +33,10 @@ body section div.br-es {
 body section div.br-es #bt {
   border-radius: 50%;
   color: green;
+}
+
+body section div.br-es #comentario {
+  max-width: 100%;
 }
 
 body h3 {

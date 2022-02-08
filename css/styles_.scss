@@ -27,7 +27,7 @@
 
 /*Include*/
 body {    
-    background-image: linear-gradient(to right, gold, white);
+    background-image: linear-gradient(to right, indianred, white);
     section {
         font-size: $letTex;
         @include letra;
@@ -46,7 +46,10 @@ body {
             #bt {
                 @include borde50;
                 color: green;
-            }            
+            }
+            #comentario {
+                max-width:100%;                              
+            }          
         }
     }
     h3 {

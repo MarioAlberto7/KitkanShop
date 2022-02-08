@@ -14,8 +14,64 @@
   color: white;
 }
 
+.disp-b {
+  display: block !important;  
+}
+
+.disp-b-m {
+  display: block !important;
+  text-decoration: underline !important;  
+}
+
+.colump1 {  
+  top:0px;
+  left:0px;
+  width:250px;
+  margin-top:10px;
+}
+
+.posab {
+  position: sticky !important;
+  top: 90%;
+  left: 5px;
+  z-index: 9999 !important;
+}
+
+.color-prin {
+  background: indianred;
+}
+
+.color-prin2 {
+  background-image: linear-gradient(dimgrey, indianred);
+}
+
+.text-header {
+  color: indianred;
+}
+
+.borde1pxtop {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.borde1pxcent {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.borde1pxbott {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
 i.color-tex:hover {
   color: black;
+}
+
+.bg-header {
+  background: url('../img/backgheader.jpg');  
 }
 
 .bor-das{
@@ -25,24 +81,9 @@ i.color-tex:hover {
   height: 65px;
 }
 
-.i-logo {
-  padding-left: 10px;
-  border-right: 2px dashed #141619;
-}
-
-.posit-ar {
-  padding-left: 10px;
-}
-
-/*.br-da {
-  border: 2px dashed #141619;
-  margin-bottom: 8px;
-  background-image: linear-gradient(#495057, #D6D6C6);
-}
-*/
-
-.gr-hor {
-  background-image: linear-gradient(to left, #D6D6C6, #495057);
+.buttonfor:hover {
+  background: indianred;
+  color: #fff !important;
 }
 
 :root {

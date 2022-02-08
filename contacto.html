@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>KitKan Shop - Tienda Virtual</title>
+        <title>KitKan Shop - Contacto con la tienda</title>
+        <!--SEO-->
+        <meta name="keywords" content="tienda, online, ropa, accesorios, zapatillas, kitkan, shop, virtual">
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
         <!-- Bootstrap icons-->
@@ -19,7 +21,7 @@
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light col-oranred">
+        <nav class="navbar navbar-expand-lg navbar-light color-prin">
             <div class="container px-0 px-lg-0">
                 <a href="./index.html" class="" target="_blank">
                     <img src="./img/logo.jpg" alt="logo" class="navbar-brand bor-das" width="80" height="50">
@@ -44,6 +46,11 @@
                         </li>
                     </ul>
                     <form class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                            <li class="nav-item"><a class="btn text-white" aria-current="page" href="#">Sobre Nosotros</a></li>
+                            <li class="nav-item"><a class="btn text-white" aria-current="page" href="#">Registrar</a></li>
+                            <li class="nav-item"><a class="text-white btn btn-outline-secondary me-1" aria-current="page" href="#">Login</a></li>
+                        </ul>
                         <button class="btn btn-outline-secondary text-white" type="submit">
                             <i class="bi-cart-fill me-1 color-tex">Carro</i>
                             
@@ -54,17 +61,17 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-tienda py-5">
+        <header class="bg-header py-5">
             <div class="container px-4 px-lg-5 my-5">
-                <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">KitKan: Ubica la moda aquí</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">Nos diferenciamos por nuestra calidad y servicio</p>
+                <div class="text-center text-header">
+                    <h1 class="display-4 fw-bolder">KitKan Shop: Ubica la moda aquí</h1>
+                    <p class="lead fw-normal text-header mb-0">Nos diferenciamos por nuestra calidad y servicio</p>
                 </div>
             </div>
         </header>
 
         <!-- Section-->
-        <section class="py-5 col-oranred posit-ar">
+        <section class="py-3 posit-ar">
             <h4>Escríbenos tu comentario para seguir mejorando:</h4>
             <p><em>Recuerda tambien escribirnos en nuestras redes sociales</em></p>
 
@@ -80,16 +87,15 @@
 
             <div class="br-es">
                 <label form="comentario">Deja tus comentarios: </label><br>
-                <textarea name="comentario" id="comentario" cols="70" rows="10" class="form-label"></textarea>
+                <textarea name="comentario" id="comentario" cols="100" class="form-label"></textarea>
             </div>
 
             <div class="br-es">
-                <button id="bt">Guardar</button>
-                <button id="bt">Limpiar</button>
+                <button class="buttonfor" id="bt">Guardar</button>
+                <button class="buttonfor" id="bt">Limpiar</button>
             </div>
-
         </section>
-
+        <!--Fin del section-->
         
         <h3 class="text-white gr-hor">Contactanos en:</h3>
         <div class="container br-da--bg text-white">
@@ -99,13 +105,22 @@
                 <img src="./img/facebook.png" class="br-da ico-fb" alt="face" width="40" height="40">Facebook
             </a>
             <a href="https://web.whatsapp.com" class="text-primary">
-                <img src="./img/whatsapp.png" class="br-da ico-tw" alt="" width="40" height="40">WhatsApp
+                <img src="./img/whatsapp.png" class="br-da ico-tw" alt="whatsapp" width="40" height="40">WhatsApp
             </a>
         </div>
 
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        <footer class="py-5 color-prin2">
+            <div class="container">
+                <ul class="m-0 text-white">
+                    <li class="btn m-0 text-white disp-b-m text-start colump1" href="#">Más Información</li>
+                    <li class="btn m-0 text-white disp-b text-start colump1" href="#">Sobre Nosotros</li>
+                    <li class="btn m-0 text-white disp-b text-start colump1" href="#">Bolsa de Trabajo</li>
+                    <li class="btn m-0 text-white disp-b text-start colump1" href="#">Ubicación</li>
+                    <li class="btn m-0 text-white disp-b text-start colump1" href="#">Libro de Reclamación (Virtual)</li>
+                </ul>                
+            </div>
+            <div class="container"><p class="m-0 text-end text-white">Copyright &copy; MFMMGZ 2022</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
