@@ -5,20 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>KitKan Shop - Tienda Virtual</title>
+        <title>KitKan Shop - Vestimentas</title>
+        <!--SEO-->
+        <meta name="keywords" content="tienda, online, ropa, accesorios, zapatillas, kitkan, shop, virtual">
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/logo.ico" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles_.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light col-oranred">
+        <nav class="navbar navbar-expand-lg navbar-light color-prin">
             <div class="container px-0 px-lg-0">
                 <a href="./index.html" class="" target="_blank">
-                    <img src="./img/logo.jpg" alt="logo" class="navbar-brand bor-das" width="80" height="50">
+                    <img src="./img/logo.jpg" alt="logo" class="navbar-brand bor-das">
                 </a>
                 <a class="navbar-brand text-white" href="./index.html">Kitkan Shop</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -40,6 +46,13 @@
                         </li>
                     </ul>
                     <form class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                            <li class="nav-item"><a class="btn text-white" aria-current="page" href="#">Sobre Nosotros</a></li>
+                            <li class="nav-item"><a class="btn text-white" aria-current="page" href="#">Registrar</a></li>
+                            <li>
+                                <button class="btn btn-outline-secondary text-white me-1" type="submit"><i class="me-1 color-tex">Login</i>
+                            </li>
+                        </ul>
                         <button class="btn btn-outline-secondary text-white" type="submit">
                             <i class="bi-cart-fill me-1 color-tex">Carro</i>
                             
@@ -50,11 +63,11 @@
             </div>
         </nav>
         <!-- Header-->
-        <header class="bg-tienda py-5">
+        <header class="bg-header py-5">
             <div class="container px-4 px-lg-5 my-5">
-                <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">KitKan: Ubica la moda aquí</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">Nos diferenciamos por nuestra calidad y servicio</p>
+                <div class="text-center text-header">
+                    <h1 class="display-4 fw-bolder">KitKan Shop: Ubica la moda aquí</h1>
+                    <p class="lead fw-normal text-header mb-0">Nos diferenciamos por nuestra calidad y servicio</p>
                 </div>
             </div>
         </header>
@@ -83,15 +96,18 @@
         </nav><!--Fin de Navigation parte 2-->       
 
         <!-- Section-->
-        <section class="py-5 col-redoran">
+        <section class="py-0">
+            <a href="https://web.whatsapp.com" class="text-primary posab">
+                <img src="./img/whatsapp.png" class="br-da ico-tw btn btn-outline-dark" alt="whatsapp" width="40" height="40">
+            </a>
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="./img/page_ropa/ropa_1.jpg" alt="..." />
+                            <img class="card-img-top borde1pxtop" src="./img/page_ropa/ropa_1.jpg" alt="ropimg1" />
                             <!-- Product details-->
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 borde1pxcent">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Jogger's</h5>
@@ -100,7 +116,7 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent borde1pxbott">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver opciones</a></div>
                             </div>
                         </div>
@@ -110,9 +126,9 @@
                             <!-- Sale badge-->
                             <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">% Descuento</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="./img/page_ropa/ropa_2.jpg" alt="..." />
+                            <img class="card-img-top borde1pxtop" src="./img/page_ropa/ropa_2.jpg" alt="ropimg2" />
                             <!-- Product details-->
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 borde1pxcent">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Jogger más vendido</h5>
@@ -130,7 +146,7 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent borde1pxbott">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">¡Lo quiero!</a></div>
                             </div>
                         </div>
@@ -140,9 +156,9 @@
                             <!-- Sale badge-->
                             <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">% Descuento</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="./img/page_ropa/ropa_3.jpg" alt="..." />
+                            <img class="card-img-top borde1pxtop" src="./img/page_ropa/ropa_3.jpg" alt="ropimg3" />
                             <!-- Product details-->
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 borde1pxcent">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Camiseta Adidas negro</h5>
@@ -152,7 +168,7 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent borde1pxbott">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">¡Lo quiero!</a></div>
                             </div>
                         </div>
@@ -160,9 +176,9 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="./img/page_ropa/ropa_4.jpg" alt="..." />
+                            <img class="card-img-top borde1pxtop" src="./img/page_ropa/ropa_4.jpg" alt="ropimg4" />
                             <!-- Product details-->
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 borde1pxcent">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Chaqueta Adidas rojo</h5>
@@ -179,7 +195,7 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent borde1pxbott">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">¡Lo quiero!</a></div>
                             </div>
                         </div>
@@ -189,9 +205,9 @@
                             <!-- Sale badge-->
                             <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">% Descuento</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="./img/page_ropa/ropa_5.jpg" alt="..." />
+                            <img class="card-img-top borde1pxtop" src="./img/page_ropa/ropa_5.jpg" alt="ropimg5" />
                             <!-- Product details-->
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 borde1pxcent">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Conjunto: Chaqueta + Pantalón + camiseta</h5>
@@ -201,7 +217,7 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent borde1pxbott">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">¡Lo quiero!</a></div>
                             </div>
                         </div>
@@ -209,9 +225,9 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="./img/page_ropa/ropa_6.jpg" alt="..." />
+                            <img class="card-img-top borde1pxtop" src="./img/page_ropa/ropa_6.jpg" alt="ropimg6" />
                             <!-- Product details-->
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 borde1pxcent">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Camiseta Adidas - Moda Urbana</h5>
@@ -220,7 +236,7 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent borde1pxbott">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Ver opciones</a></div>
                             </div>
                         </div>
@@ -230,9 +246,9 @@
                             <!-- Sale badge-->
                             <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">% Descuento</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="./img/page_ropa/ropa_7.jpg" alt="..." />
+                            <img class="card-img-top borde1pxtop" src="./img/page_ropa/ropa_7.jpg" alt="ropimg7" />
                             <!-- Product details-->
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 borde1pxcent">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Conjunto: Chaqueta + Pantalón (Súper Descuento)</h5>
@@ -250,7 +266,7 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent borde1pxbott">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">¡Lo quiero!</a></div>
                             </div>
                         </div>
@@ -258,9 +274,9 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="./img/page_ropa/ropa_8.jpg" alt="..." />
+                            <img class="card-img-top borde1pxtop" src="./img/page_ropa/ropa_8.jpg" alt="ropimg8" />
                             <!-- Product details-->
-                            <div class="card-body p-4">
+                            <div class="card-body p-4 borde1pxcent">
                                 <div class="text-center">
                                     <!-- Product name-->
                                     <h5 class="fw-bolder">Más pedidos: Blazzer</h5>
@@ -277,7 +293,7 @@
                                 </div>
                             </div>
                             <!-- Product actions-->
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent borde1pxbott">
                                 <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">¡Lo quiero!</a></div>
                             </div>
                         </div>
@@ -286,8 +302,17 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        <footer class="py-5 color-prin2">
+            <div class="container">
+                <ul class="m-0 text-white">
+                    <li class="btn m-0 text-white disp-b-m text-start colump1" href="#">Más Información</li>
+                    <li class="btn m-0 text-white disp-b text-start colump1" href="#">Sobre Nosotros</li>
+                    <li class="btn m-0 text-white disp-b text-start colump1" href="#">Bolsa de Trabajo</li>
+                    <li class="btn m-0 text-white disp-b text-start colump1" href="#">Ubicación</li>
+                    <li class="btn m-0 text-white disp-b text-start colump1" href="#">Libro de Reclamación (Virtual)</li>
+                </ul>                
+            </div>
+            <div class="container"><p class="m-0 text-end text-white">Copyright &copy; MFMMGZ 2022</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
